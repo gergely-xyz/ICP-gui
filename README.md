@@ -46,3 +46,9 @@ This project is about estimating the 6 DoF pose of an object in a scene, given t
 ## GUI Tips
 - The viewers are all interactive, so you can rotate, pan and zoom in them by using the mouse. They are all instances of the [PCLVisualizer](http://docs.pointclouds.org/1.8.1/classpcl_1_1visualization_1_1_p_c_l_visualizer.html) embedded in the Qt GUI.
 - The viewers take a second or two to update after the corresponding `Process` button is clicked.
+
+# Installation
+Make sure the following packages are installed! On Ubuntu based system run:
+```
+sudo apt-get install qtbase5-dev libvtk6-dev libvtk6-qt-dev libpcl-dev libboost-all-dev
+```
