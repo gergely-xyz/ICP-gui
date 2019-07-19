@@ -3,6 +3,7 @@
 
 #include <pcl/registration/eigen.h>
 #include <pcl/registration/warp_point_rigid.h>
+#include <boost/shared_ptr.hpp>
 
 namespace pcl
 {

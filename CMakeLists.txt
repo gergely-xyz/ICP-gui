@@ -13,7 +13,7 @@ set(CMAKE_INCLUDE_CURRENT_DIR ON)
 
 # Find the QtWidgets library
 find_package(Qt5Widgets REQUIRED )
-
+find_package(Boost REQUIRED)
 find_package(VTK REQUIRED)
 find_package(PCL 1.7.1 REQUIRED)
 

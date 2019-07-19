@@ -6,6 +6,7 @@
 #include <pcl/filters/voxel_grid.h>
 #include <pcl/registration/icp.h>
 #include <pcl/registration/transformation_estimation_lm.h>
+#include <boost/shared_ptr.hpp>
 
 class PoseEstimator
 {
