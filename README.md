@@ -50,5 +50,32 @@ This project is about estimating the 6 DoF pose of an object in a scene, given t
 # Installation
 Make sure the following packages are installed! On Ubuntu based system run:
 ```
-sudo apt-get install qtbase5-dev libvtk6-dev libvtk6-qt-dev libpcl-dev libboost-all-dev
+sudo apt-get install build-essential qtbase5-dev libvtk6-dev libvtk6-qt-dev libpcl-dev libboost-all-dev
+```
+
+Clone the repo and make a build folder inside
+```
+git clone https://github.com/samarth-robo/ICP-gui.git
+mkdir ICP-gui/build
+cd ICP-gui/build
+```
+
+Make sure cmake is installed. Build and compile the project.
+```
+sudo apt-get install cmake
+cmake ..
+make all
+```
+
+You can also use Ninja to build the project for faster compile times on multi core CPUs.
+```
+sudo apt-get install ninja-buld
+cmake -G Ninja ..
+ninja
+```
+
+# Useage
+Run the executeable in the build folder.
+```
+./qtcreator_test
 ```
